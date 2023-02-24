@@ -15,6 +15,22 @@
 <body>
 
     <h1>plants by Dileep Sumanth Yarajala</h1>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <a class="navbar-brand" href="plants.html">Interesting Plants</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="basic.html">Basic Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="advanced.html">Advanced Link</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <div class = "container">
         <div class="row">
         <div class = "col-sm-2"><h4>Y</h4></div>
@@ -71,7 +87,7 @@
            <td scope="row">abelia</td>
           <td scope="row">anaimudi</td>
           <td scope="row">Aayab</td>
-  </tr>/td
+  </tr>
   <tr class="table-info">
     <td scope="row">R</td>
      <td scope="row">ratibida</td>
@@ -96,6 +112,102 @@
         <td scope="row">anaimudi</td>
         <td scope="row">Aayab</td>
       </tr>
+    </tbody>
+    </table>
+    </div>
       <br>
+
+      <label for="floatingSelectGrid">Buttons</label>
+    <br>
+    <button type="button" class="btn">Y</button>
+    <button type="button" class="btn">A</button>
+    <button type="button" class="btn">R</button>
+    <button type="button" class="btn">A</button>
+    <button type="button" class="btn">J</button>
+    <button type="button" class="btn">A</button>
+    <br>
+    <label for="floatingSelectGrid">Button Group</label>
+    <br>
+    <div class="btn-toolbar" role="group" aria-label="Basic example">
+      <button type="button" class="btn btn-success">Y</button>
+      <button type="button" class="btn btn-success">A</button>
+      <button type="button" class="btn btn-success">R</button>
+      <button type="button" class="btn btn-warning">A</button>
+      <button type="button" class="btn btn-warning">J</button>
+      <button type="button" class="btn btn-danger">A</button>
+    </div>
 </tbody>
 </table>
+
+</div>
+<br>
+<button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"> Dropdown button </button>
+<ul class="dropdown-menu">
+  <li>
+    <a class="dropdown-item" href="basic.html">Basic</a>
+  </li>
+  <li>
+    <a class="dropdown-item" href="advanced.html">Advanced</a>
+  </li>
+</ul>
+<br>
+<br>
+<form>
+  <div class="mb-3 form-group">
+    <label for="exampleInputEmail1" class="form-label">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+  </div>
+  <div class="mb-3 form-group">
+    <label for="exampleInputPlant" class="form-label">Plant</label>
+    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Enter your plant">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Sign up for newsletter?</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+<br>
+<br>
+<br>
+    <div class="container">
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="Yellow bells.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Yellow bells</h5>
+               <p class="card-text h-100">Tecoma stans is a semi-evergreen shrub that can grow to a small tree 6 to 9 meters high. It features opposite odd-pinnate green leaves, with 3 to 13 serrate, 8- to 10-cm-long leaflets. The leaflets, glabrous on both sides, have a lanceolate blade 2–10 cm long and 1–4 cm wide, with a long acuminate apex and a wedge-shaped base.</p>
+                <button class="btn btn-primary" onclick="location.href='https://en.wikipedia.org/wiki/Tecoma_stans'">About TAMARIX</button>
+
+              </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="arum.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">arum</h5>
+              <p class="card-text h-100">Arum is a genus of flowering plants in the family Araceae, native to Europe, northern Africa, and western and central Asia, with the highest species diversity in the Mediterranean region.[1][2] Frequently called arum lilies, they are not closely related to the true lilies Lilium. Plants in closely related Zantedeschia are also called "arum lilies".</p>
+              <button class="btn btn-primary" onclick="location.href='https://en.wikipedia.org/wiki/Arum'">About HALESIA</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="card" style="width: 18rem;">
+            <img src="rock rose.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">rock rose</h5>
+              <p class="card-text h-100">The Cistaceae are a small family of plants (rock-rose or rock rose family) known for their beautiful shrubs, which are profusely covered by flowers at the time of blossom. </p>
+              <button class="btn btn-primary" onclick="location.href='https://en.wikipedia.org/wiki/Cistaceae'">More about Globeflower</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
